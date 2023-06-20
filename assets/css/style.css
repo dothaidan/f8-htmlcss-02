@@ -410,3 +410,84 @@ a {
 }
 
 /* ============= courses ============== */
+
+/* ============= feedback ============== */
+
+.feedback {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback-item {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.info-feedback {
+    width: 159px;
+}
+
+.info-feedback .ava {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info-feedback .title {
+    margin-top: 18px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+}
+
+.info-feedback .desc {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.info-feedback .dots {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+
+.info-feedback .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+    cursor: pointer;
+}
+
+.info-feedback .dot.active {
+    background: #ffb900;
+    cursor: default;
+}
+
+.content-feedback {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback blockquote {
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
+
+/* ============= feedback ============== */
