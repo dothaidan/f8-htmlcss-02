@@ -43,7 +43,6 @@ a {
 .heading {
     font-family: var(--font-heading);
     font-weight: 700;
-
     letter-spacing: -0.02em;
     color: #171100;
 }
